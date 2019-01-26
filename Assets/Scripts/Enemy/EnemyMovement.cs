@@ -32,7 +32,11 @@ public class EnemyMovement : MonoBehaviour {
             if(TargetIndex < RoutePoints.Length - 1)
                 TargetIndex++;
             else
+            {
                 Destroy(gameObject);
+                GameObject.Find("House").GetComponent<HouseHealth>().houseHealth -= GetComponent<EnemyHealth>().Damage;
+                Debug.Log(GameObject.Find("House").GetComponent<HouseHealth>().houseHealth);
+            }
         }
 
         if (Speed < MaxSpeed)

@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class Slipper : MonoBehaviour
 {
-    public float speed = 5;
+    public float speed = 5, damage = 50;
     public Transform target;
+    
     // Start is called before the first frame update
     void Start()
     {

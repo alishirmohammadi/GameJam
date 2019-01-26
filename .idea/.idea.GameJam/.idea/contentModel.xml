@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="A:\Unity\GameJam" t="IncludeRecursive">
+    <e p="C:\Users\Hamid\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Hamid\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_GameJam.1144381344.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Hamid\Desktop\GameJam" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="Enemy" t="Include">
+            <e p="EnemyHealth.cs" t="Include" />
             <e p="EnemyMovement.cs" t="Include" />
+          </e>
+          <e p="House" t="Include">
+            <e p="HouseHealth.cs" t="Include" />
           </e>
           <e p="Human" t="Include">
             <e p="Dady.cs" t="Include" />
@@ -25,7 +31,5 @@
         <e p="bin" t="ExcludeRecursive" />
       </e>
     </e>
-    <e p="C:\Users\admin\.Rider2018.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\admin\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_GameJam.330903228.00" t="ExcludeRecursive" />
   </component>
 </project>
