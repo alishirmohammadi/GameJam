@@ -2,8 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fc77fd6-f3b3-4687-9f41-cc7423b6ef88" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.GameJam/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.GameJam/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/map.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/map.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/f7/f7b4cecfa45079d4e84a3a15a5076d27" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/metadata/f7/f7b4cecfa45079d4e84a3a15a5076d27.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Human/Mommy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Human/Mommy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/419658-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/419658-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/Library/expandedItems" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/79/79102eaf44589c34fafe9d9ccb19834f" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/79/79102eaf44589c34fafe9d9ccb19834f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,7 +25,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyMovement.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -31,15 +44,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Human/Mommy.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+            <state relative-caret-position="176">
+              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
               <folding>
-                <marker date="1548494749042" expanded="true" signature="6:78" ph="..." />
-                <marker date="1548494749042" expanded="true" signature="114:675" ph="{...}" />
-                <marker date="1548494749042" expanded="true" signature="275:296" ph="{...}" />
-                <marker date="1548494749042" expanded="true" signature="315:673" ph="{...}" />
-                <marker date="1548494749042" expanded="true" signature="342:576" ph="{...}" />
-                <marker date="1548494749042" expanded="true" signature="589:667" ph="{...}" />
+                <marker date="1548499847075" expanded="false" signature="6:78" ph="..." />
+                <marker date="1548499847075" expanded="true" signature="114:587" ph="{...}" />
+                <marker date="1548499847075" expanded="true" signature="272:585" ph="{...}" />
+                <marker date="1548499847075" expanded="true" signature="299:533" ph="{...}" />
+                <marker date="1548499847075" expanded="true" signature="546:579" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -80,10 +92,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="AssemblyExplorer" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -96,7 +109,6 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
-      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -104,6 +116,7 @@
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -144,11 +157,12 @@
       <workItem from="1548424969377" duration="693000" />
       <workItem from="1548448989661" duration="642000" />
       <workItem from="1548485588286" duration="7294000" />
+      <workItem from="1548498009029" duration="2430000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8629000" />
+    <option name="totallyTimeSpent" value="11059000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -228,15 +242,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Human/Mommy.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        <state relative-caret-position="176">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
           <folding>
-            <marker date="1548494749042" expanded="true" signature="6:78" ph="..." />
-            <marker date="1548494749042" expanded="true" signature="114:675" ph="{...}" />
-            <marker date="1548494749042" expanded="true" signature="275:296" ph="{...}" />
-            <marker date="1548494749042" expanded="true" signature="315:673" ph="{...}" />
-            <marker date="1548494749042" expanded="true" signature="342:576" ph="{...}" />
-            <marker date="1548494749042" expanded="true" signature="589:667" ph="{...}" />
+            <marker date="1548499847075" expanded="false" signature="6:78" ph="..." />
+            <marker date="1548499847075" expanded="true" signature="114:587" ph="{...}" />
+            <marker date="1548499847075" expanded="true" signature="272:585" ph="{...}" />
+            <marker date="1548499847075" expanded="true" signature="299:533" ph="{...}" />
+            <marker date="1548499847075" expanded="true" signature="546:579" ph="{...}" />
           </folding>
         </state>
       </provider>

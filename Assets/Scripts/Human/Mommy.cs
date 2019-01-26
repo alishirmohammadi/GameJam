@@ -9,11 +9,6 @@ public class Mommy : MonoBehaviour
     public Transform Target;
 
     private float LastDamageTime = 0;
-    
-    void Start()
-    {
-        
-    }
 
     void Update()
     {
@@ -26,7 +21,7 @@ public class Mommy : MonoBehaviour
         }
         else
         {
-//            GameObject gun = (GameObject) Instantiate()
+//          
         }
     }
 }
