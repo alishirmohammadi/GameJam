@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour {
     public GameObject[] Routes;
-    public float Speed, RotationSpeed;
+    public float Speed, MaxSpeed, RotationSpeed;
     public float TargetChangeDistance;
 
 
@@ -17,6 +17,7 @@ public class EnemyMovement : MonoBehaviour {
         RoutePoints = Route.GetComponentsInChildren<Transform>();
         transform.position = RoutePoints[1].position;
         TargetIndex = 2;
+        Speed = MaxSpeed;
     }
 
     void Update() {
@@ -33,5 +34,8 @@ public class EnemyMovement : MonoBehaviour {
             else
                 Destroy(gameObject);
         }
+
+        if (Speed < MaxSpeed)
+            Speed *= 1.004f;
     }
 }

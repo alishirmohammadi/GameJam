@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Enemy\EnemyMovement.cs" />
+    <Compile Include="Assets\Scripts\Human\Dady.cs" />
     <Compile Include="Assets\Scripts\Human\Mommy.cs" />
     <Compile Include="Assets\Scripts\Weapons\Slipper.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">

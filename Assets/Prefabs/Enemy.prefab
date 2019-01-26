@@ -51,6 +51,7 @@ MonoBehaviour:
   - {fileID: 7210969851566441630, guid: 4b74b67839be549458ce342e85f35b6f, type: 3}
   - {fileID: 8971400159591430577, guid: 14939f749ef1946489ab2c4f7db8b963, type: 3}
   Speed: 1
+  MaxSpeed: 1
   RotationSpeed: 0.003
   TargetChangeDistance: 0.3
 --- !u!65 &7641124786113250708
