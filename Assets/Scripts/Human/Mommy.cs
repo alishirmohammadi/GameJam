@@ -7,6 +7,7 @@ public class Mommy : MonoBehaviour
     public float DamageRadious;
     public float DamageTimeDistance;
     public Transform Target;
+    public GameObject Slipper;
 
     private float LastDamageTime = 0;
 
@@ -21,7 +22,12 @@ public class Mommy : MonoBehaviour
         }
         else
         {
-//          
+            if (Time.time - LastDamageTime > DamageTimeDistance)
+            {
+                GameObject g = (GameObject) Instantiate(Slipper, transform.position, Quaternion.identity);
+                g.GetComponent<Slipper>().target = Target;
+                LastDamageTime = Time.time;
+            }
         }
     }
 }
