@@ -31,7 +31,7 @@ public class EnemyHealth : MonoBehaviour
 
     private void OnMouseDown()
     {
-        GameObject mommy = GameObject.Find("Mommy");
+        GameObject mommy = GameObject.FindGameObjectWithTag("Mommy");
         float MaxDistance = mommy.GetComponent<Mommy>().DamageRadious;
         if ((mommy.transform.position - transform.position).magnitude <= MaxDistance)
             mommy.GetComponent<Mommy>().Target = transform;

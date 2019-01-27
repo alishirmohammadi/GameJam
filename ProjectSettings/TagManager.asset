@@ -8,6 +8,8 @@ TagManager:
   - Slipper
   - Enemy
   - Background
+  - Mommy
+  - FxTemporaire
   layers:
   - Default
   - TransparentFX

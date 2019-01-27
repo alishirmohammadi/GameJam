@@ -15,6 +15,18 @@ public class HouseHealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (houseHealth <= 0)
+        {
+            GameObject.Find("Text").GetComponent<Animator>().enabled=true;
+            
+            Invoke("LoadMenu", 0.666666f);
+        }
+            
+    }
+
+    void LoadMenu()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(0);
     }
 }
+

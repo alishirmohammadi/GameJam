@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel;
 using UnityEngine;
 using UnityEngine.UI;
 using Button = UnityEngine.UI.Button;
@@ -14,7 +15,9 @@ public class Manager : MonoBehaviour
     public Button daddyButton, mommyButton, boyButton, girlButton;
     public Camera camera;
     public GameObject motherPrefab, fatherPrefab, boyPrefab, girlPrefab;
-    
+
+
+    private GameObject father;
     public void ButtonSelect(int btnInt)
     {
         GameButton btn = (GameButton) btnInt;
@@ -32,6 +35,11 @@ public class Manager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetMouseButtonUp(0))
+        {
+            if (father.GetComponent<Dady>())
+                father.GetComponent<Dady>().isRotating = false;
+        }
         if (Input.GetMouseButtonDown(0))
         {
             Ray ray = camera.ScreenPointToRay(Input.mousePosition);
@@ -45,6 +53,13 @@ public class Manager : MonoBehaviour
                     {
                         GameObject mother = (GameObject) Instantiate(motherPrefab, hitInfo.point, Quaternion.LookRotation(Vector3.up, Vector3.back));
                         motherPrefab = null;
+                    }
+
+                    if (selectedButton == GameButton.Daddy && fatherPrefab)
+                    {
+                        father = (GameObject) Instantiate(fatherPrefab, hitInfo.point, Quaternion.LookRotation(Vector3.left, Vector3.back));
+                        father.GetComponent<Dady>().isRotating = true;
+                        fatherPrefab = null;
                     }
                 }
             }
