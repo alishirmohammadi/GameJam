@@ -26,6 +26,11 @@ public class Mommy : MonoBehaviour
         }
         else
         {
+            if ((Target.position - transform.position).magnitude > DamageRadious)
+            {
+                Target = null;
+                return;
+            }
             animator.SetBool("IsShooting", true);
             Vector3 direction = Target.position - transform.position;
             Quaternion toRotation = Quaternion.LookRotation(-direction, transform.up);

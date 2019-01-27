@@ -18,9 +18,12 @@ public class Dady : MonoBehaviour
         RaycastHit[] hitInfo = Physics.RaycastAll(ray, MaxWindDistance);
         foreach (RaycastHit enemy in hitInfo)
         {
+            if(!enemy.transform.gameObject.CompareTag("Enemy"))
+                continue;
+            
             float maxSpeed = enemy.transform.gameObject.GetComponent<EnemyMovement>().MaxSpeed;
             float speed = enemy.transform.gameObject.GetComponent<EnemyMovement>().Speed;
-            if(maxSpeed * 0.3f < speed)
+            if(maxSpeed * 0.6f < speed)
                 enemy.transform.gameObject.GetComponent<EnemyMovement>().Speed *= 0.91f;
         }
     }

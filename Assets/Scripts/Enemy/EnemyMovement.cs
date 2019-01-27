@@ -23,7 +23,7 @@ public class EnemyMovement : MonoBehaviour {
     void Update() {
         Vector3 direction = RoutePoints[TargetIndex].position - transform.position;
         Quaternion toRotation = Quaternion.LookRotation(direction, transform.up);
-        transform.rotation = Quaternion.Lerp(transform.rotation, toRotation, RotationSpeed * Time.time);
+        transform.rotation = Quaternion.Lerp(transform.localRotation, toRotation, RotationSpeed * Time.time);
 //        transform.LookAt(RoutePoints[TargetIndex]);
         transform.Translate(Vector3.forward * Speed * Time.deltaTime);
         float distance = (RoutePoints[TargetIndex].position - transform.position).magnitude;

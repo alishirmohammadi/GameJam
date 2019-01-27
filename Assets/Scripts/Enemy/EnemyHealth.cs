@@ -21,7 +21,6 @@ public class EnemyHealth : MonoBehaviour
     }
     void OnCollisionEnter(Collision c)
     {
-        Debug.Log("barkhord");
         if (c.gameObject.CompareTag("Slipper"))
         {
             float enemy_damage = c.gameObject.GetComponent<Slipper>().damage; 
@@ -30,4 +29,11 @@ public class EnemyHealth : MonoBehaviour
         }
     }
 
+    private void OnMouseDown()
+    {
+        GameObject mommy = GameObject.Find("Mommy");
+        float MaxDistance = mommy.GetComponent<Mommy>().DamageRadious;
+        if ((mommy.transform.position - transform.position).magnitude <= MaxDistance)
+            mommy.GetComponent<Mommy>().Target = transform;
+    }
 }

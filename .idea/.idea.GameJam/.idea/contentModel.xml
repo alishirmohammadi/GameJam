@@ -1,11 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Hamid\.Rider2018.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Hamid\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_GameJam.1144381344.00" t="ExcludeRecursive" />
-    <e p="C:\Users\Hamid\Desktop\GameJam" t="IncludeRecursive">
+    <e p="A:\Unity\GameJam" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="JMO Assets" t="Include">
+          <e p="!JMO Assets Readme.txt" t="Include" />
+          <e p="Cartoon FX" t="Include">
+            <e p="CartoonFX Readme.txt" t="Include" />
+            <e p="CartoonFX Releases Notes.txt" t="Include" />
+            <e p="Demo" t="Include">
+              <e p="Assets" t="Include">
+                <e p="CFX_Demo.cs" t="Include" />
+                <e p="CFX_Demo_RandomDir.cs" t="Include" />
+                <e p="CFX_Demo_RandomDirectionTranslate.cs" t="Include" />
+                <e p="CFX_Demo_RotateCamera.cs" t="Include" />
+                <e p="CFX_Demo_WaterWiggle.shader" t="Include" />
+              </e>
+            </e>
+            <e p="Editor" t="Include">
+              <e p="CFX_SpawnSystemEditor.cs" t="Include" />
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="CFX_AutoDestructShuriken.cs" t="Include" />
+              <e p="CFX_AutodestructWhenNoChildren.cs" t="Include" />
+              <e p="CFX_AutoRotate.cs" t="Include" />
+              <e p="CFX_LightIntensityFade.cs" t="Include" />
+              <e p="CFX_ShurikenThreadFix.cs" t="Include" />
+            </e>
+            <e p="Shaders (Mobile)" t="Include">
+              <e p="CFXM_MobileParticleAdd_Alpha8.shader" t="Include" />
+            </e>
+            <e p="Spawn System" t="Include">
+              <e p="CFX_SpawnSystem.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Cartoon FX Easy Editor" t="Include">
+            <e p="CartoonFX Easy Editor Readme.txt" t="Include" />
+            <e p="Editor" t="Include">
+              <e p="CFXEasyEditor.cs" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Scripts" t="Include">
           <e p="Enemy" t="Include">
             <e p="EnemyHealth.cs" t="Include" />
@@ -18,6 +55,7 @@
             <e p="Dady.cs" t="Include" />
             <e p="Mommy.cs" t="Include" />
           </e>
+          <e p="Manager.cs" t="Include" />
           <e p="Weapons" t="Include">
             <e p="Slipper.cs" t="Include" />
           </e>
@@ -31,5 +69,7 @@
         <e p="bin" t="ExcludeRecursive" />
       </e>
     </e>
+    <e p="C:\Users\admin\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\admin\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_GameJam.330903228.00" t="ExcludeRecursive" />
   </component>
 </project>

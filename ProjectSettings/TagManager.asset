@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Route
   - Slipper
+  - Enemy
   layers:
   - Default
   - TransparentFX
