@@ -12,6 +12,8 @@ public class Manager : MonoBehaviour
 
     public GameButton selectedButton = GameButton.None;
     public Button daddyButton, mommyButton, boyButton, girlButton;
+    public Camera camera;
+    public GameObject motherPrefab, fatherPrefab, boyPrefab, girlPrefab;
     
     public void ButtonSelect(int btnInt)
     {
@@ -30,12 +32,21 @@ public class Manager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.touchCount == 1 && selectedButton != GameButton.None)
+        if (Input.GetMouseButtonDown(0))
         {
-            Touch t = Input.GetTouch(0);
-            if (t.phase == TouchPhase.Began)
+            Ray ray = camera.ScreenPointToRay(Input.mousePosition);
+            Debug.Log(Input.mousePosition);
+            RaycastHit[] raycastHit = Physics.RaycastAll(ray);
+            foreach (RaycastHit hitInfo in raycastHit)
             {
-                Debug.Log(t.position);
+                if (hitInfo.transform.gameObject.CompareTag("Background"))
+                {
+                    if (selectedButton == GameButton.Mommy && motherPrefab)
+                    {
+                        GameObject mother = (GameObject) Instantiate(motherPrefab, hitInfo.point, Quaternion.LookRotation(Vector3.up, Vector3.back));
+                        motherPrefab = null;
+                    }
+                }
             }
         }
     }

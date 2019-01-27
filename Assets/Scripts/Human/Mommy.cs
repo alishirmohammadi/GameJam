@@ -18,11 +18,14 @@ public class Mommy : MonoBehaviour
     {
         if (!Target)
         {
-            Collider[] colliders;
-            colliders = Physics.OverlapSphere(transform.position, DamageRadious);
-            if (colliders.Length > 0)
-                Target = colliders[0].gameObject.transform;
-            animator.SetBool("IsShooting", false);
+//            Collider[] colliders;
+//            colliders = Physics.OverlapSphere(transform.position, DamageRadious);
+//            foreach (Collider c in colliders)
+//            {
+//                if (c.gameObject.CompareTag("Enemy"))
+//                    Target = c.gameObject.transform;
+//            }
+//            animator.SetBool("IsShooting", false);
         }
         else
         {

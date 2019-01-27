@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 5517789495291369064}
   - component: {fileID: 7641124786113250708}
   - component: {fileID: 5220104128850078474}
-  - component: {fileID: 3854644444092419753}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -82,23 +81,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Damage: 20
-  Health: 10000
---- !u!54 &3854644444092419753
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 618422620994581760}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 88
-  m_CollisionDetection: 0
+  Health: 100
 --- !u!1 &7309987149314447941
 GameObject:
   m_ObjectHideFlags: 0

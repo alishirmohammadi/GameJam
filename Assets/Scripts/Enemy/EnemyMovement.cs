@@ -20,11 +20,12 @@ public class EnemyMovement : MonoBehaviour {
         Speed = MaxSpeed;
     }
 
-    void Update() {
-        Vector3 direction = RoutePoints[TargetIndex].position - transform.position;
-        Quaternion toRotation = Quaternion.LookRotation(direction, transform.up);
-        transform.rotation = Quaternion.Lerp(transform.localRotation, toRotation, RotationSpeed * Time.time);
-//        transform.LookAt(RoutePoints[TargetIndex]);
+    void Update()
+    {
+//        Vector3 direction = RoutePoints[TargetIndex].position - transform.position;
+//        Quaternion toRotation = Quaternion.LookRotation(direction, transform.up);
+//        transform.rotation = Quaternion.Lerp(transform.localRotation, toRotation, RotationSpeed * Time.time);
+        transform.LookAt(RoutePoints[TargetIndex]);
         transform.Translate(Vector3.forward * Speed * Time.deltaTime);
         float distance = (RoutePoints[TargetIndex].position - transform.position).magnitude;
         if (distance < TargetChangeDistance)

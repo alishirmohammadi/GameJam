@@ -73,6 +73,7 @@
     <Compile Include="Assets\Scripts\Human\Dady.cs" />
     <Compile Include="Assets\Scripts\Human\Mommy.cs" />
     <Compile Include="Assets\Scripts\Manager.cs" />
+    <Compile Include="Assets\Scripts\Wave.cs" />
     <Compile Include="Assets\Scripts\Weapons\Slipper.cs" />
     <None Include="Assets\JMO Assets\Cartoon FX\Shaders (Mobile)\CFXM_MobileParticleAdd_Alpha8.shader" />
     <None Include="Assets\JMO Assets\Cartoon FX\CartoonFX Releases Notes.txt" />

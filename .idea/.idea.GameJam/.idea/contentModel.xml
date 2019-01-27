@@ -56,6 +56,7 @@
             <e p="Mommy.cs" t="Include" />
           </e>
           <e p="Manager.cs" t="Include" />
+          <e p="Wave.cs" t="Include" />
           <e p="Weapons" t="Include">
             <e p="Slipper.cs" t="Include" />
           </e>
